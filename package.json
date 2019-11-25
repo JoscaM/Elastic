@@ -1,0 +1,22 @@
+{
+  "name": "elastic",
+  "version": "1.0.0",
+  "description": "Elasticsearch",
+  "main": "serve.js",
+  "scripts": {
+    "test": "no",
+    "start": "nodemon serve.js"
+  },
+  "author": "Josca",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.0.0",
+    "elasticsearch": "^16.3.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
